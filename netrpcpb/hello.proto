@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+// import path
+option go_package = "/netrpcpb";
+
+// define a struct-like struct, called String
+message String {
+  // define a value that is type of string, named value, and assign the id of it to 1
+  string value = 1;
+}
+
+// define a service
+service HelloService {
+  rpc Hello (String) returns (String);
+}
