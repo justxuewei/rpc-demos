@@ -9,7 +9,9 @@ The project shows the RPC demos in Golang including net/rpc, gRPC, etc.
     - launch a goroutine to handle an RPC request;
     - encapsulate a client for HelloService to ensure the arguments are correct.
 - netrpc3: An RPC demo using JsonRPC to call methods across languages.
-- netrpcpb: generate code automatically by customized plug-ins of protobuf.
+- netrpcpb: Generate code automatically by customized plug-ins of protobuf.
+- kvdb: A kv-pair storage based on RPC.
+- rvsrpc: A reversed RPC.
 
 ## Getting Started
 

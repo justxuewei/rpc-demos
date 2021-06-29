@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	_ = rpc.RegisterName("StoreService", new(kvdb.StoreService))
+	_ = rpc.RegisterName("StoreService", kvdb.NewStoreService())
 
 	listener, err := net.Listen("tcp", ":1234")
 	if err != nil {
