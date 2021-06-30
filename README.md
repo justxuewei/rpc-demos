@@ -14,6 +14,7 @@ The project shows the RPC demos in Golang including net/rpc, gRPC, etc.
 - rvsrpc: A reversed RPC.
 - rpcctx: A RPC with context.
 - grpcdm: A gRPC demo.
+- grpcstm: A gRPC demo with stream.
 
 ## Getting Started
 

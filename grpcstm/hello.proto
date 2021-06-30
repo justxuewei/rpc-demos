@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+// import path
+option go_package = "/grpcstm";
+
+// define a struct-like struct, called String
+message String {
+  // define a value that is type of string, named value, and assign the id of it to 1
+  string value = 1;
+}
+
+service HelloService {
+  rpc Hello (String) returns (String);
+
+  rpc Channel (stream String) returns (stream String);
+}
