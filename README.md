@@ -12,6 +12,8 @@ The project shows the RPC demos in Golang including net/rpc, gRPC, etc.
 - netrpcpb: Generate code automatically by customized plug-ins of protobuf.
 - kvdb: A kv-pair storage based on RPC.
 - rvsrpc: A reversed RPC.
+- rpcctx: A RPC with context.
+- grpcdm: A gRPC demo.
 
 ## Getting Started
 
